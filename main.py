@@ -1,5 +1,4 @@
 import winsound
-
 def newForm():
     response = input("\nWould you like to submit a new form? \n").lower().strip()
 
@@ -13,7 +12,7 @@ def newForm():
 
 def start():
 
-    blooben = input("\nDoes your item pass the base blooben test? \n").lower().strip()
+    blooben = input("\nDoes your question pass the base blooben test? \n").lower().strip()
 
     if blooben == "yes":
         print("\nGood Job")
