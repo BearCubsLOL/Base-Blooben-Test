@@ -20,7 +20,7 @@ def start():
     elif blooben == "no":
         print("\nBad Job")
         newForm()
-    elif "what" in blooben or "idk" in blooben or "i don't know" in blooben or "i dont know" in blooben:
+    elif "what" in blooben or "idk" in blooben or "i don't know" in blooben or "i dont know" in blooben or "huh" in blooben or "huh?" in blooben:
         winsound.PlaySound("Grain_Says_Please_Hold.wav", 0)
         winsound.PlaySound("Please_Hold.wav", 0)
         newForm()
